@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    background-image: url(./img/luxa.org-opacity-changed-fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #161d25,#769f9e);
+    height: 120px;
+    align-items: center;
+    color: aliceblue;
+}
+
+#title {
+    color: black;
+}
+
+.title{
+    font-size: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+
+
+.body h1,h2 {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.info{
+    margin-left: 250px;
+       color: aliceblue;
+       margin-top: 20px;
+   }
+   
+   .info span{
+       color: red;
+   }
+
+hr{
+    max-width: 1150px;
+  margin-left: 100px;
+  margin-top: 20px;
+  padding: 1px;
+  background: white;
+  border: 0;
+  
+
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.info-one {
+    color: white;
+}
+
+.info-one h1 {
+    text-align: center;
+    color: white;
+    text-shadow:rgba(0, 0, 0, 0.788) 2px 2px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 350px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.info-one h1:hover{
+    color: rgb(156, 120, 66);
+    cursor: pointer;
+}
+
+.info-one img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 60px;
+    border: solid white 2px;
+
+}
+
+.info-one img:hover{
+    border-radius: 60px;
+    box-shadow: 2px 3px 5px 5px rgb(255, 174, 0) ;
+    cursor: pointer;
+}
+
+.info-one p {
+    margin-top: 5px;
+}
+
+.info-one a{
+    text-decoration: none;
+}
+
+
+
+.info-two{
+    color: white;
+}
+
+.info-two h1{
+    color: white;
+    text-align: center;
+    width: 350px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-shadow:rgba(0, 0, 0, 0.788) 2px 2px;
+    margin-top: 5px; 
+    font-size: 30px;
+}
+
+.info-two h1:hover{
+    color: rgb(156, 120, 66);
+    cursor: pointer;
+}
+
+.info-two img{
+   width: 350px;
+   height: 350px;
+   object-fit: cover;
+   border-radius: 60px;
+   border: solid white 2px;
+}
+
+.info-two img:hover{
+    border-radius: 80px;
+    box-shadow: 2px 3px 5px 5px rgb(255, 174, 0) ;
+    cursor: pointer;
+}
+
+.info-two a{
+    text-decoration: none;
+    
+}
+
+.info-two p {
+    margin-top: 5px;
+}
+
+
+
+
+.container-two{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.info-three{
+    color: white;
+}
+
+
+.info-three h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 350px;
+    margin-top: 5px;
+    text-shadow:rgba(0, 0, 0, 0.788) 2px 2px;
+}
+
+.info-three h1:hover{
+    color: rgb(156, 120, 66);
+    cursor: pointer;
+}
+
+.info-three img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+    border: solid white 2px;
+}
+
+.info-three img:hover{
+    border-radius: 60px;
+    box-shadow: 2px 3px 5px 5px rgb(255, 174, 0) ;
+    cursor: pointer;
+}
+
+.info-three p{
+    margin-top: 5px;
+}
+
+.info-three a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.info-four{
+    color: antiquewhite;
+}
+
+.info-four h1{
+    text-align: center;
+    color: white;
+    width: 350px;
+    margin-top: 5px;
+    text-shadow:rgba(0, 0, 0, 0.788) 2px 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.info-four h1:hover{
+    color: rgb(156, 120, 66);
+    cursor: pointer;
+}
+
+.info-four img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+    border: solid white 2px;
+}
+
+.info-four img:hover{
+    border-radius: 60px;
+    box-shadow: 2px 3px 5px 5px rgb(255, 174, 0) ;
+    cursor: pointer;
+}
+
+.info-four p{
+    margin-top: 5px;
+}
+
+.info-four a{
+        text-decoration: none;
+}
+
+
+
+.rodape{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    padding: 40px;
+    background: black;
+    color: white;
+}
